@@ -1,0 +1,144 @@
+
+.heading {
+    font-size: 4.2vmax;
+    font-weight: normal;
+}
+
+.buttons {
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: normal;
+}
+
+.card-button {
+    border-radius: 14px;
+    width: 20vw;
+    margin-left: 25px;
+}
+
+.last-button {
+    border-radius: 14px;
+    margin-left: 50px;
+    width: 30vw;
+}
+
+#landing-page {
+    background: rgb(0,0,0);
+    background: linear-gradient(353deg, rgba(0,0,0,1) 40%, rgba(40,38,38,1) 90%);
+}
+
+ #third-section {
+    background: rgb(0,0,0);
+    background: linear-gradient(156deg, rgba(0,0,0,1) 40%, rgba(40,38,38,1) 90%);
+} 
+
+#fifth-section {
+    background: rgb(0,0,0);
+    background: linear-gradient(148deg, rgba(0,0,0,1) 35%, rgb(24, 107, 145) 100%);
+    /*rgba(6,60,57,1)*/
+}
+
+.fifth-section-left-text {
+    width: 30vw;
+}
+
+
+@media screen and (max-width: 455px) {
+
+    .heading {
+        font-size: 10vmax;
+        margin-left: 8px;
+        font-weight: normal;
+    }
+
+   .intro {
+    margin-left: 8px;
+   }
+    
+   .buttons {
+    width: 90vw; 
+    margin-left: 10px;
+   }
+
+   .card-button {
+    width: 90vw;
+    margin-left: 45px;
+   }
+
+   #fifth-section .last-button {
+    width: 50vw;
+   }
+
+   .upwork {
+    visibility: hidden;
+   }
+
+   #landing-page {
+     border-radius: 15px;
+   }
+
+   #third-section {
+    border-radius: 15px;
+   }
+
+   #fifth-section {
+    border-radius: 15px;
+   }
+
+   .fifth-section-left-text {
+    width: 90vw;
+   }
+}
+
+@media screen and (max-width: 765px) {
+    
+    .heading {
+        font-size: 8vmax;
+        margin-left: 8px;
+        font-weight: normal;
+    }
+
+    .intro {
+        margin-left: 8px;
+       }
+    .buttons {
+        width: 80vw; 
+       }
+
+    .card-button {
+        width: 60vw;
+        
+    }
+
+    #fifth-section .last-button {
+        width: 50vw;
+        
+    }
+
+    .upwork {
+        visibility: hidden;
+    }
+
+    #landing-page {
+        border-radius: 15px;
+      }
+   
+      #third-section {
+       border-radius: 15px;
+      }
+   
+      #fifth-section {
+       border-radius: 15px;
+      }
+
+      .fifth-section-left-text {
+        width: 80vw;
+       }
+}
+
+@media screen and (max-width: 1200px) {
+    
+    #footer-area .footer-row {
+        margin-left: 100px;
+    }
+}
