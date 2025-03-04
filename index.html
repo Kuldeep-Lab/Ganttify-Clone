@@ -1,0 +1,687 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Ganttify-Clone</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="styles.css" rel="stylesheet">
+  <!-- AOS animation link -->
+  <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
+</head>
+
+<body>
+
+  <header>
+    <nav class="navbar navbar-expand-lg bg-light">
+      <div class="container">
+        <a class="navbar-brand me-5 mx-3 mt-2" href="#" style="font-weight: bold;">
+          <i class="fa-solid fa-cube fa-rotate-270"></i> Ganttify</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-lg-0 mt-2" style="font-weight: bold;">
+
+            <li class="nav-item me-3">
+              <a class="nav-link active" aria-current="page" href="#">Product</a>
+            </li>
+
+            <li class="nav-item me-3">
+              <a class="nav-link" href="#">Solutions</a>
+            </li>
+
+            <li class="nav-item me-3">
+              <a class="nav-link" href="#">Resources</a>
+            </li>
+
+            <li class="nav-item me-3">
+              <a class="nav-link" href="#">Company</a>
+            </li>
+
+            <li class="nav-item me-3">
+              <a class="nav-link" href="#">Pricing</a>
+            </li>
+          </ul>
+          <form class="d-flex mx-5 mt-2" role="search">
+            <button class="btn btn-outline-secondary mx-3" type="submit"
+              style="font-weight: bold; border-radius: 10px;">Sign In</button>
+            <button class="btn btn-dark" type="submit" style="font-weight: bold; border-radius: 10px;">Get
+              Started</button>
+          </form>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <!--this is first section-->
+    <section id="landing-page">
+      <div class="container ">
+        <div class="row">
+
+          <!--this is first colomn -->
+          <div class="col-md-12 col-lg-6 mt-5">
+            <div class="container mt-5">
+              <button class="btn btn-dark" style=" border-radius: 10px;" data-aos="zoom-in"><i
+                  class="fa-solid fa-crosshairs fa-lg me-1"></i>Goals & Resporting</button>
+              <h1 class="heading text-light" data-aos="zoom-out">Goals and Reporting In One Place</h1>
+
+              <p class="intro text-secondary" data-aos="zoom-out" data-aos-delay="300"> Connect every team's work to company objectives then track progress with
+                real-time data.</p>
+
+              <button class="buttons btn btn-light text-dark product-card mt-3 me-3" data-aos="zoom-in" data-aos-delay="400"> Get Started </button>
+              <button class="buttons btn btn-dark text-light product-card mt-3" data-aos="zoom-in" data-aos-delay="400"> How it Works </button>
+
+              <p class="mt-5 text-secondary" data-aos="slide-up">Trusted by 2 million+ teams</p>
+              <div class="mt-4" style="font-weight: 500;" data-aos="slide-up">
+                <spam class="text-secondary me-3" ><i class="fa-brands fa-medium fa-xl me-1"></i>Medium</spam>
+                <spam class="text-secondary me-3" ><i class="fa-brands fa-xl fa-mailchimp me-1"></i>mailchimp</spam>
+                <span class="text-secondary me-3" ><i class="fa-brands fa-microsoft fa-xl me-1"></i>Microsoft</span>
+                <span class="text-secondary me-5 upwork" ><i
+                    class="fa-brands fa-square-upwork fa-xl me-1"></i>Upwork</span>
+              </div>
+
+            </div>
+          </div>
+
+          <!--this is second colomn -->
+          <div class="col-md-12 col-lg-6">
+
+            <div class="container" data-aos="zoom-in">
+              <img class="card-img mt-5 mb-5"
+                src="https://dreamfirm.in/wp-content/themes/dreamfirm/theme/assets/img/hero-img.webp" alt="home-img">
+            </div>
+
+          </div>
+        </div>
+      </div>
+
+      </div>
+    </section>
+
+    <!--this is logo area-->
+    <div class="container mt-5 gy-3 my-3">
+      <p class="text-secondary" style="text-align: center; font-weight: 600;" data-aos="fade-down">Trusted by 2 million+ teams</p>
+      <div class="row mt-4 text-center">
+
+        <div class="col me-2 mb-3" data-aos="fade-right">
+          <span class="text-secondary"><i class="fa-brands fa-evernote fa-lg me-1"></i>Evernote</span>
+        </div>
+
+        <div class="col me-2 mb-3" data-aos="fade-down">
+          <span class="text-secondary"><i class="fa-brands fa-dropbox fa-lg me-1"></i>Dropbox</span>
+        </div>
+
+        <div class="col me-2 mb-3" data-aos="zoom-in">
+          <span class="text-secondary"><i class="fa-brands fa-microsoft fa-lg me-1"></i>Microsoft</span>
+        </div>
+
+        <div class="col me-2 mb-3" data-aos="fade-up">
+          <spam class="text-secondary"><i class="fa-brands fa-medium fa-lg me-1"></i>Medium</spam>
+        </div>
+
+        <div class="col me-2 mb-3" data-aos="fade-left">
+          <spam class="text-secondary"><i class="fa-brands fa-lg fa-mailchimp me-1"></i>mailchimp</spam>
+        </div>
+
+      </div>
+    </div>
+
+    <!--this is second section-->
+    <section id="second-section" data-aos="fade-up">
+      <div class="container mt-5" style="padding-top: 50px;">
+        <span class="text-secondary mx-2" style="border: 1px solid rgb(163, 159, 159); padding: 6px; border-radius: 10px; font-size: small; font-weight: 700;">
+          <i class="fa-solid fa-crosshairs fa-md me-1"></i> Features</span>
+        <h1 class="mt-3 mx-2" data-aos="fade-up">Everything Your Team Looking For</h1>
+        <p class="text-secondary mx-2" style="font-size: small;" data-aos="fade-up">Ganttify's exceptional flexibility can handle any type of
+          work. And we never stop innovating</p>
+
+        <div class="row gy-5 my-3 mt-5 mx-2">
+          <!--first card-->
+          <div class="col-sm-12 col-md-6 col-lg-6 shadow-sm" data-aos="zoom-in-up">
+            <div class="card" style="border-style: none;">
+              <img src="Screenshot (316).png" alt="first-img" class="card-img-top shadow-sm"
+                style="border-radius: 15px;">
+              <div class="card-body" data-aos="fade-up" data-aos-delay="300">
+                <h4>Project Management</h4>
+                <p class="text-secondary">Manage your project from start to finish. With all of your projects in
+                  Ganttify, you'll always know who's doing what, by when</p>
+              </div>
+            </div>
+          </div>
+
+          <!--second card-->
+          <div class="col-sm-12 col-md-6 col-lg-6 shadow-sm" data-aos="zoom-in-up">
+            <div class="card" style="border-style: none;">
+              <img src="Screenshot (319).png" alt="first-img" class="card-img-top shadow-sm"
+                style="border-radius: 15px;">
+              <div class="card-body" data-aos="fade-up" data-aos-delay="300">
+                <h4>Workflows and Automations</h4>
+                <p class="text-secondary">Create more efficient processes so you can seemlessly manage projects accross
+                  departments and get more donein less time</p>
+              </div>
+            </div>
+          </div>
+
+          <!--third card-->
+          <div class=" col-sm-12 col-md-6 col-lg-6 shadow-sm" data-aos="zoom-in-up">
+            <div class="card" style="border-style: none;">
+              <img src="Screenshot (318).png" alt="first-img" class="card-img-top shadow-sm"
+                style="border-radius: 15px;">
+              <div class="card-body" data-aos="fade-up" data-aos-delay="300">
+                <h4>Goals and Reporting</h4>
+                <p class="text-secondary">See how each project and portfolio ladders up to company objectives and keep
+                  everyone focused on the work that matters</p>
+              </div>
+            </div>
+          </div>
+
+          <!--forth card-->
+          <div class=" col-sm-12 col-md-6 col-lg-6 shadow-sm" data-aos="zoom-in-up">
+            <div class="card" style="border-style: none;">
+              <img src="Screenshot (317).png" alt="first-img" class="card-img-top shadow-sm"
+                style="border-radius: 15px;">
+              <div class="card-body" data-aos="fade-up" data-aos-delay="300">
+                <h4>Resource Management</h4>
+                <p class="text-secondary">Get the visiblity you need to plan accurate timelines, adjust workloads, and
+                  stay on track to achieve your objectives</p>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+    </section>
+
+    <!--third section-->
+    <section id="third-section"  data-aos="fade-up">
+
+      <div class="container mt-5 " style="padding-top: 50px; padding-bottom: 30px; ">
+        <span class="text-light mt-5 mx-2" style="border: 1px solid rgb(102, 99, 99); padding: 8px; border-radius: 10px; font-size: small; font-weight: 700;">
+          <i class="fa-solid fa-dollar-sign fa-md me-1"></i>
+           Pricing</span>
+        <h1 class="mt-3 text-light mx-2" data-aos="fade-up">Simple and Flexible <br> Pricing</h1>
+
+        <div class="mt-3 mx-2">
+          <button class="btn btn-light me-2 align-items-end" type="submit"
+            style="font-size: medium; border-radius: 10px;" data-aos="zoom-out">Monthly</button>
+          <button class="btn btn-dark align-items-end" type="submit"
+            style="font-size: medium; border-radius: 10px;" data-aos="zoom-out">Annually</button>
+        </div>
+
+        <div class="row gy-3 my-3 mt-5 ">
+          <!--1st card-->
+          <div class="col-lg-4" data-aos="zoom-in-up">
+            <div class="card shadow-sm bg-dark bg-gradient bg-opacity-10"
+              style="background-color: transparent; border-radius: 15px;">
+              <div class="card-body">
+                <span class="text-secondary">Personal</span>
+                <h3 class="text-light">$29 <span class="text-secondary" style="font-size: medium;">per month</span>
+                </h3>
+                <p class="text-secondary" style="font-size: medium;">For individuals and small teams looking to manage
+                  their tasks</p>
+                <hr class="text-secondary">
+                <h6 class="text-light">This Plan Includes:</h6>
+                <div class="mt-4">
+                  <p class="text-secondary"><i class="fa-solid fa-circle-check me-3"
+                      style="background-color: transparent;"></i>Unlimited contacts</p>
+                  <p class="text-secondary"><i class="fa-solid fa-circle-check me-3"
+                      style="background-color: transparent;"></i>Bulk emailing</p>
+                  <p class="text-secondary"><i class="fa-solid fa-circle-check me-3"
+                      style="background-color: transparent;"></i>AI intrigation</p>
+                  <p class="text-secondary"><i class="fa-solid fa-circle-check me-3"
+                      style="background-color: transparent;"></i>View & share up to 3 years</p>
+                  <p class="text-secondary"><i class="fa-solid fa-circle-check me-3"
+                      style="background-color: transparent;"></i>Collaboration & permissions</p>
+                </div>
+
+                <button class="card-button btn btn-dark text-light">Get Started</button>
+              </div>
+            </div>
+          </div>
+
+          <!--2nd card-->
+          <div class="col-lg-4" data-aos="zoom-in-up">
+            <div class="card shadow-sm bg-light bg-gradient bg-opacity-70"
+              style="background-color: transparent; border-radius: 15px;">
+              <div class="card-body">
+                <span class="text-secondary">Pro</span>
+                <h3 class="text-dark">$39 <span class="text-secondary" style="font-size: small;">per month</span> </h3>
+                <p class="text-secondary" style="font-size: medium;">For growing teams that need to track their
+                  projects' progress and hit deadline</p>
+                <hr class="text-secondary">
+                <h6 class="text-dark">Everything in Standard,plus:</h6>
+                <div class="mt-4">
+                  <p class="text-secondary"><i class="fa-solid fa-circle-check me-3"
+                      style="background-color: transparent;"></i>Email sequences</p>
+                  <p class="text-secondary"><i class="fa-solid fa-circle-check me-3"
+                      style="background-color: transparent;"></i>Send emails from multiple domains</p>
+                  <p class="text-secondary"><i class="fa-solid fa-circle-check me-3"
+                      style="background-color: transparent;"></i>Connect multiple email accounts</p>
+                  <p class="text-secondary"><i class="fa-solid fa-circle-check me-3"
+                      style="background-color: transparent;"></i>Fully adjustable sgaring permissions</p>
+                  <p class="text-secondary"><i class="fa-solid fa-circle-check me-3"
+                      style="background-color: transparent;"></i>Migration services</p>
+                </div>
+
+                <button class="card-button btn btn-dark">Get Started</button>
+              </div>
+            </div>
+          </div>
+
+          <!--3rd card-->
+          <div class="col-lg-4" data-aos="zoom-in-up">
+            <div class="card shadow-sm bg-black bg-opacity-50 bg-gradient" style="border-radius: 15px;">
+              <div class="card-body ">
+                <span class="text-secondary">Beyound limits</span>
+                <h3 class="text-light">Coustom Plan</h3>
+                <p class="text-secondary" style="font-size:medium;">For companies that need to manage a portfolio of
+                  work and goals across departments</p>
+                <hr class="text-secondary">
+                <h6 class="text-light">Everything in Standard & Pro,plus:</h6>
+                <div class="mt-4">
+                  <p class="text-secondary"><i class="fa-solid fa-circle-check me-3"
+                      style="background-color: transparent;"></i>White glove onboarding</p>
+                  <p class="text-secondary"><i class="fa-solid fa-circle-check me-3"
+                      style="background-color: transparent;"></i>Coustom billing</p>
+                  <p class="text-secondary"><i class="fa-solid fa-circle-check me-3"
+                      style="background-color: transparent;"></i>Dedicated slack channel</p>
+                  <p class="text-secondary"><i class="fa-solid fa-circle-check me-3"
+                      style="background-color: transparent;"></i>Dedicated point of contact</p>
+                  <p class="text-secondary"><i class="fa-solid fa-circle-check me-3"
+                      style="background-color: transparent;"></i>Unlimited reporting</p>
+                </div>
+
+                <button class="card-button btn btn-dark text-light">Get Started</button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!--fourth section-->
+    <section id="fourth-section" data-aos="fade-up">
+      <div class="container mt-5" style="padding-top: 50px;">
+
+        <div style="text-align: center;">
+          <h6 class="text-secondary" style=" padding: 6px; border-radius: 10px; font-size: small; font-weight: 700;"><i
+              class="fa-solid fa-crosshairs fa-md me-1"></i> Features</h6>
+          <h1 class="mt-2">See What Our Customers <br> Are Saying</h1>
+          <p class="text-secondary">Here's what some of our customers say about our platform</p>
+        </div>
+
+        <div class="row gy-3 my-3">
+          <!--1st card-->
+          <div class="col-sm-12 col-md-6 col-lg-4" data-aos="zoom-out">
+            <div class="card" style="border-radius: 15px;">
+              <div class="card-body mb-3">
+
+                <h6 class="card-title">
+                  <i class="fa-solid fa-star " style="color: rgb(110, 16, 172);"></i>
+                  <i class="fa-solid fa-star " style="color: rgb(110, 16, 172);"></i>
+                  <i class="fa-solid fa-star " style="color: rgb(110, 16, 172);"></i>
+                  <i class="fa-solid fa-star " style="color: rgb(110, 16, 172);"></i>
+                  <i class="fa-solid fa-star me-2" style="color: rgb(110, 16, 172);"></i>
+                  <span class="text-secondary">4.8 </span>
+                </h6>
+
+                <p class="card-text text-dark mt-3" style="font-weight: 500; font-size: small;">"Ganttify has
+                  revolutionized the way we manage our projects. Connecting tasks and workflows to our overall company
+                  goals has never been easier."</p>
+
+                <img class="me-2" style="border-radius: 30px; display: inline-block;"
+                  src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRSKRbuCySBl-1FTZya8_LTFMVvA6TKTT9rVg&s"
+                  height="50" width="50">
+
+                <h6 class="card-title mt-4" style="display: inline-block; font-size: small;">Charolette Henlin <br>
+                  <p class="text-secondary" style="display: inline-block; font-size: small;">Co-Founder, Heroes Ditigal
+                  </p>
+                </h6>
+              </div>
+            </div>
+          </div>
+
+          <!--2nd card-->
+          <div class="col-sm-12 col-md-6 col-lg-4" data-aos="zoom-out">
+            <div class="card" style="border-radius: 15px;">
+              <div class="card-body mb-3">
+
+                <h6 class="card-title">
+                  <i class="fa-solid fa-star " style="color: rgb(110, 16, 172);"></i>
+                  <i class="fa-solid fa-star " style="color: rgb(110, 16, 172);"></i>
+                  <i class="fa-solid fa-star " style="color: rgb(110, 16, 172);"></i>
+                  <i class="fa-solid fa-star " style="color: rgb(110, 16, 172);"></i>
+                  <i class="fa-solid fa-star me-2" style="color: rgb(110, 16, 172);"></i>
+                  <span class="text-secondary">4.8 </span>
+                </h6>
+
+                <p class="card-text text-dark mt-3" style="font-weight: 500; font-size: small;">"Using Ganttify has
+                  streamlined our project management process. It's incredibly offective in aligning our dally tasks with
+                  the company's strategic goals."</p>
+
+                <img class="me-2" style="border-radius: 30px; display: inline-block;"
+                  src="https://png.pngtree.com/png-clipart/20230927/original/pngtree-man-avatar-image-for-profile-png-image_13001882.png"
+                  height="60" width="60">
+
+                <h6 class="card-title mt-4" style="display: inline-block; font-size: small;">Eleanor Pena <br>
+                  <p class="text-secondary" style="display: inline-block; font-size: small;">Co-Founder, Heroes Ditigal
+                  </p>
+                </h6>
+              </div>
+            </div>
+          </div>
+
+          <!--3rd card-->
+          <div class="col-sm-12 col-md-6 col-lg-4" data-aos="zoom-out">
+            <div class="card" style="border-radius: 15px;">
+              <div class="card-body mb-3">
+
+                <h6 class="card-title">
+                  <i class="fa-solid fa-star " style="color: rgb(110, 16, 172);"></i>
+                  <i class="fa-solid fa-star " style="color: rgb(110, 16, 172);"></i>
+                  <i class="fa-solid fa-star " style="color: rgb(110, 16, 172);"></i>
+                  <i class="fa-solid fa-star " style="color: rgb(110, 16, 172);"></i>
+                  <i class="fa-solid fa-star me-2" style="color: rgb(110, 16, 172);"></i>
+                  <span class="text-secondary">4.8 </span>
+                </h6>
+
+                <p class="card-text text-dark mt-3" style="font-weight: 500; font-size: small;">"Ganttify has provided
+                  us with a unified view of our projects. It connects our workflows directly to our business goak making
+                  it easier to track progress."</p>
+
+                <img class="me-2" style="border-radius: 30px; display: inline-block;"
+                  src="https://png.pngtree.com/png-clipart/20230927/original/pngtree-man-avatar-image-for-profile-png-image_13001877.png"
+                  height="60" width="60">
+
+                <h6 class="card-title mt-4" style="display: inline-block; font-size: small;">Guy Hawkins <br>
+                  <p class="text-secondary" style="display: inline-block; font-size: small;">Co-Founder, Heroes Ditigal
+                  </p>
+                </h6>
+              </div>
+            </div>
+          </div>
+
+          <!--4th card-->
+          <div class="col-sm-12 col-md-6 col-lg-4" data-aos="zoom-out" >
+            <div class="card" style="border-radius: 15px;">
+              <div class="card-body mb-3">
+
+                <h6 class="card-title">
+                  <i class="fa-solid fa-star " style="color: rgb(110, 16, 172);"></i>
+                  <i class="fa-solid fa-star " style="color: rgb(110, 16, 172);"></i>
+                  <i class="fa-solid fa-star " style="color: rgb(110, 16, 172);"></i>
+                  <i class="fa-solid fa-star " style="color: rgb(110, 16, 172);"></i>
+                  <i class="fa-solid fa-star me-2" style="color: rgb(110, 16, 172);"></i>
+                  <span class="text-secondary">4.8 </span>
+                </h6>
+
+                <p class="card-text text-dark mt-3" style="font-weight: 500; font-size: small;">"Ganttify ability to
+                  connect lasks with our company's goals has given us a new lewd of dartly and afficioney in our project
+                  management efforte."</p>
+
+                <img class="me-2" style="border-radius: 30px; display: inline-block;"
+                  src="https://png.pngtree.com/png-vector/20230831/ourmid/pngtree-man-avatar-image-for-profile-png-image_9197909.png"
+                  height="60" width="60">
+
+                <h6 class="card-title mt-4" style="display: inline-block; font-size: small;">Kristin Watson <br>
+                  <p class="text-secondary" style="display: inline-block; font-size: small;">Co-Founder, Heroes Ditigal
+                  </p>
+                </h6>
+              </div>
+            </div>
+          </div>
+
+          <!--5th card-->
+          <div class="col-sm-12 col-md-6 col-lg-4" data-aos="zoom-out" >
+            <div class="card" style="border-radius: 15px;">
+              <div class="card-body mb-3">
+
+                <h6 class="card-title">
+                  <i class="fa-solid fa-star " style="color: rgb(110, 16, 172);"></i>
+                  <i class="fa-solid fa-star " style="color: rgb(110, 16, 172);"></i>
+                  <i class="fa-solid fa-star " style="color: rgb(110, 16, 172);"></i>
+                  <i class="fa-solid fa-star " style="color: rgb(110, 16, 172);"></i>
+                  <i class="fa-solid fa-star me-2" style="color: rgb(110, 16, 172);"></i>
+                  <span class="text-secondary">4.8 </span>
+                </h6>
+
+                <p class="card-text text-dark mt-3" style="font-weight: 500; font-size: small;">"Using Ganttify, we've
+                  been able to ensure that all our project activites an aligned with overarching business objectives,
+                  leading to better coordination and success."</p>
+
+                <img class="me-2" style="border-radius: 30px; display: inline-block;"
+                  src="https://png.pngtree.com/png-clipart/20231020/original/pngtree-avatar-of-a-brunette-man-png-image_13379740.png"
+                  height="60" width="60">
+
+                <h6 class="card-title mt-4" style="display: inline-block; font-size: small;">Jane Cooper <br>
+                  <p class="text-secondary" style="display: inline-block; font-size: small;">Co-Founder, Heroes Ditigal
+                  </p>
+                </h6>
+              </div>
+            </div>
+          </div>
+
+          <!--6th card-->
+          <div class="col-sm-12 col-md-6 col-lg-4" data-aos="zoom-out">
+            <div class="card" style="border-radius: 15px;">
+              <div class="card-body mb-3">
+
+                <h6 class="card-title">
+                  <i class="fa-solid fa-star " style="color: rgb(110, 16, 172);"></i>
+                  <i class="fa-solid fa-star " style="color: rgb(110, 16, 172);"></i>
+                  <i class="fa-solid fa-star " style="color: rgb(110, 16, 172);"></i>
+                  <i class="fa-solid fa-star " style="color: rgb(110, 16, 172);"></i>
+                  <i class="fa-solid fa-star me-2" style="color: rgb(110, 16, 172);"></i>
+                  <span class="text-secondary">4.8 </span>
+                </h6>
+
+                <p class="card-text text-dark mt-3" style="font-weight: 500; font-size: small;">"Ganttify has
+                  transformed our approach to project management. It ensures that every task, no matter how small in
+                  aligned with our company's mission and goals"."</p>
+
+                <img class="me-2" style="border-radius: 30px; display: inline-block;"
+                  src="https://static.vecteezy.com/system/resources/thumbnails/004/899/833/small_2x/beautiful-girl-with-blue-hair-avatar-of-woman-for-social-network-vector.jpg"
+                  height="60" width="60">
+
+                <h6 class="card-title mt-4" style="display: inline-block; font-size: small;">Leslie Alexander <br>
+                  <p class="text-secondary" style="display: inline-block; font-size: small;">Co-Founder, Heroes Ditigal
+                  </p>
+                </h6>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!--fifth section-->
+    <section id="fifth-section" class="mt-5" data-aos="fade-up" >
+      <div class="container " style="padding-top: 50px;">
+        <div class="row">
+
+          <!--left area-->
+          <div class="col-md-6" data-aos="fade-right" data-aos-delay="300">
+            <div class="mx-4 " style="padding-top: 50px;">
+              <span class="text-light mt-5"
+                style="border: 1px solid rgb(102, 99, 99); padding: 8px; border-radius: 10px; font-size: small; font-weight: 700;"><i
+                  class="fa-solid fa-headphones me-2 fa-md me-1"></i>Contact</span>
+              <div class="fifth-section-left-text">
+                <h1 class="text-light mt-4">Get In Touch with Us </h1>
+                <p class="card-text mt-3  text-secondary">Ganttify enables you to achieve clarity and significant results
+                  on a large scale by linking tasks and workflows to the overarching ojectives of the company.</p>
+              </div>
+            </div>
+          </div>
+
+          <!--right area-->
+          <div class="col-md-6" data-aos="zoom-out-down" data-aos-delay="300">
+            <div class="mx-2" style="padding-top: 50px; padding-bottom: 50px;">
+
+              <form class="text-light bg-light bg-opacity-10" style="padding: 20px; border-radius: 15px;">
+
+                <div class="mb-3">
+                  <label>First name</label>
+                  <input type="text" class="form-control">
+                </div>
+
+                <div class="mb-3">
+                  <label>Last name</label>
+                  <input type="text" class="form-control">
+                </div>
+
+                <div class="mb-3">
+                  <label for="exampleInputEmail1" class="form-label">Email address</label>
+                  <input type="email" class="form-control" id="exampleInputEmail1">
+                </div>
+
+                <div class="">
+                  <label>Problem Description</label>
+                  <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                </div>
+
+                <!-- <button type="submit"  class="last-button btn btn-dark mt-3">Submit</button>-->
+                <button class="last-button btn btn-dark mt-3">Submit</button>
+              </form>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer id="footer-area" class="mt-5" data-aos="fade-up">
+    <div class="container-fluid bg-black bg-gradient">
+
+      <div class="container pt-5">
+
+        <div class="row gy-3 pt-2">
+
+          <!-- 1st card -->
+          <div class="col-xs-6 col-sm-6 col-md-4 col-lg-2" data-aos="zoom-in-up" data-aos-delay="300">
+            <div class="card bg-transparent border-0">
+              <div class="card-body">
+                <h5 class=" text-light" style="font-weight: bold;"><i class="fa-solid fa-cube fa-lg fa-rotate-270"></i>
+                  Ganttify</h5>
+
+              <p class="text-secondary mt-4">Connect with us on these platform</p>
+
+                  <div class="mt-4 text-secondary  px-0">
+                    <p><a href="#" class="link-secondary" style="text-decoration: none;"><i
+                          class="fa-brands mx-2 text-light fa-facebook-f"></i>Facebook</a></p>
+                    <p><a href="#" class="link-secondary" style="text-decoration: none;"><i
+                          class="fa-brands mx-2 text-light fa-twitter"></i>Twitter</a></p>
+                    <p><a href="#" class="link-secondary" style="text-decoration: none;"><i
+                          class="fa-brands mx-2 text-light fa-linkedin-in"></i>Linkedin</a></p>
+                    <p><a href="#" class="link-secondary" style="text-decoration: none;"><i
+                          class="fa-brands mx-2 text-light fa-instagram"></i>Instagram</a></p>
+                  </div>
+              </div>
+            </div>
+
+          </div>
+
+          <!--2nd card-->
+          <div class="col-xs-6 col-sm-6 col-md-4 col-lg-2" data-aos="zoom-in-up" data-aos-delay="300">
+            <div class="card bg-transparent border-0">
+              <div class="card-body">
+                <p class="text-light" style="font-weight: bold;">Ganttify</p>
+                <p class="text-secondary">Home</p>
+                <p class="text-secondary">Product</p>
+                <p class="text-secondary">Price</p>
+                <p class="text-secondary">Customer Success</p>
+                <p class="text-secondary">Templates</p>
+                <p class="text-secondary">Trust & Security</p>
+              </div>
+            </div>
+          </div>
+
+          <!--3rd card-->
+          <div class="col-xs-6 col-sm-6 col-md-4 col-lg-2" data-aos="zoom-in-up" data-aos-delay="300">
+            <div class="card bg-transparent border-0">
+              <div class="card-body">
+                <p class="text-light" style="font-weight: bold;">About Us</p>
+                <p class="text-secondary">Company</p>
+                <p class="text-secondary">Leadership</p>
+                <p class="text-secondary">Customers</p>
+                <p class="text-secondary">Careers</p>
+                <p class="text-secondary">Changelog</p>
+              </div>
+            </div>
+          </div>
+
+          <!--4th card-->
+          <div class="col-xs-6 col-sm-6 col-md-6 col-lg-2" data-aos="zoom-in-up" data-aos-delay="300">
+            <div class="card bg-transparent border-0">
+              <div class="card-body">
+                <p class="text-light" style="font-weight: bold;">Resources</p>
+                <p class="text-secondary">Help Center</p>
+                <p class="text-secondary">PAQ</p>
+                <p class="text-secondary">Developers & API</p>
+                <p class="text-secondary">Community</p>
+                <p class="text-secondary">Events</p>
+                <p class="text-secondary">Status</p>
+              </div>
+            </div>
+          </div>
+
+          <!--5th card-->
+          <div class="col-xs-12 col-sm-12 col-md-6 col-lg-2" data-aos="zoom-in-up" data-aos-delay="300">
+            <div class="card bg-transparent border-0">
+              <div class="card-body">
+                <p class="text-light" style="font-weight: bold;">Helpful Links</p>
+                <p class="text-secondary">Legal center</p>
+                <p class="text-secondary">Privacy policy</p>
+                <p class="text-secondary">Partnerships</p>
+              </div>
+            </div>
+          </div>
+
+          <!--6th card-->
+          <div class="col-xs-6 col-sm-6 col-md-6 col-lg-2" data-aos="zoom-in-up" data-aos-delay="300">
+            <div class="card bg-transparent border-0">
+              <div class="card-body">
+                <p class="text-light" style="font-weight: bold;">Solution</p>
+                <p class="text-secondary">Project Management</p>
+                <p class="text-secondary">Goal Management</p>
+                <p class="text-secondary">Align Management</p>
+                <p class="text-secondary">Task Management</p>
+                <p class="text-secondary">Work Management</p>
+                <p class="text-secondary">Productivity</p>
+                <p class="text-secondary">project Planning</p>
+                <p class="text-secondary">To Do Lists</p>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+    </div>
+  </footer>
+
+  <!-- bootstrap js cdn link -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+  <!-- AOS js cdn link -->
+  <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+
+  <script>
+    AOS.init({
+      duration: 1000,
+      offset: 150,
+      mirror: false,
+    });
+  </script>
+</body>
+
+</html>
